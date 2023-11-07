@@ -9,7 +9,7 @@ function App() {
 
   useEffect(()=>{
     console.log('hola')
-  }, [0])
+  }, [setCount])
 
   return (
     <>
